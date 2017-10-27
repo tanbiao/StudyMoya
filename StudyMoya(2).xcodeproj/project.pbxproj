@@ -14,6 +14,9 @@
 		A450C4DC1FA191CA005C8103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A450C4DA1FA191CA005C8103 /* LaunchScreen.storyboard */; };
 		A450C4E71FA191CA005C8103 /* StudyMoya_2_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A450C4E61FA191CA005C8103 /* StudyMoya_2_Tests.swift */; };
 		A450C4F21FA191CA005C8103 /* StudyMoya_2_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A450C4F11FA191CA005C8103 /* StudyMoya_2_UITests.swift */; };
+		A4D54A5B1FA1ABBB00AB53B0 /* TestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D54A5A1FA1ABBB00AB53B0 /* TestService.swift */; };
+		A4D54A5D1FA1B3FE00AB53B0 /* URLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D54A5C1FA1B3FE00AB53B0 /* URLRouter.swift */; };
+		D1AA62B7C176A41F9FCF5824 /* Pods_StudyMoya_2_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B648F014E7844D6F87415F3A /* Pods_StudyMoya_2_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9820DB248A60CBE63542C0EC /* Pods-StudyMoya(2).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyMoya(2).release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyMoya(2)/Pods-StudyMoya(2).release.xcconfig"; sourceTree = "<group>"; };
 		A450C4CE1FA191C8005C8103 /* StudyMoya(2).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StudyMoya(2).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A450C4D11FA191C9005C8103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A450C4D31FA191C9005C8103 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		A450C4ED1FA191CA005C8103 /* StudyMoya(2)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StudyMoya(2)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A450C4F11FA191CA005C8103 /* StudyMoya_2_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMoya_2_UITests.swift; sourceTree = "<group>"; };
 		A450C4F31FA191CB005C8103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D54A5A1FA1ABBB00AB53B0 /* TestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestService.swift; sourceTree = "<group>"; };
+		A4D54A5C1FA1B3FE00AB53B0 /* URLRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRouter.swift; sourceTree = "<group>"; };
+		B648F014E7844D6F87415F3A /* Pods_StudyMoya_2_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyMoya_2_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA30A843329C238657CA6689 /* Pods-StudyMoya(2).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyMoya(2).debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyMoya(2)/Pods-StudyMoya(2).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1AA62B7C176A41F9FCF5824 /* Pods_StudyMoya_2_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		202A4FC47653FEDF00E55E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B648F014E7844D6F87415F3A /* Pods_StudyMoya_2_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A450C4C51FA191C8005C8103 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,8 @@
 				A450C4E51FA191CA005C8103 /* StudyMoya(2)Tests */,
 				A450C4F01FA191CA005C8103 /* StudyMoya(2)UITests */,
 				A450C4CF1FA191C8005C8103 /* Products */,
+				E80FD64EA26FE4B810071B32 /* Pods */,
+				202A4FC47653FEDF00E55E91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +116,8 @@
 		A450C4D01FA191C8005C8103 /* StudyMoya(2) */ = {
 			isa = PBXGroup;
 			children = (
+				A4D54A5C1FA1B3FE00AB53B0 /* URLRouter.swift */,
+				A4D54A5A1FA1ABBB00AB53B0 /* TestService.swift */,
 				A450C4D11FA191C9005C8103 /* AppDelegate.swift */,
 				A450C4D31FA191C9005C8103 /* ViewController.swift */,
 				A450C4D51FA191C9005C8103 /* Main.storyboard */,
@@ -125,6 +146,15 @@
 			path = "StudyMoya(2)UITests";
 			sourceTree = "<group>";
 		};
+		E80FD64EA26FE4B810071B32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA30A843329C238657CA6689 /* Pods-StudyMoya(2).debug.xcconfig */,
+				9820DB248A60CBE63542C0EC /* Pods-StudyMoya(2).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A450C4F61FA191CB005C8103 /* Build configuration list for PBXNativeTarget "StudyMoya(2)" */;
 			buildPhases = (
+				F5B4C317BA98FA79DA4298CF /* [CP] Check Pods Manifest.lock */,
 				A450C4CA1FA191C8005C8103 /* Sources */,
 				A450C4CB1FA191C8005C8103 /* Frameworks */,
 				A450C4CC1FA191C8005C8103 /* Resources */,
+				4D328A1F394CC778EDB168E8 /* [CP] Embed Pods Frameworks */,
+				D9BDB0DA0BF4D0040FAE1BD7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +226,7 @@
 				TargetAttributes = {
 					A450C4CD1FA191C8005C8103 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H8KS5W97MJ;
 						ProvisioningStyle = Automatic;
 					};
 					A450C4E11FA191CA005C8103 = {
@@ -254,12 +288,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D328A1F394CC778EDB168E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyMoya(2)/Pods-StudyMoya(2)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BDB0DA0BF4D0040FAE1BD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyMoya(2)/Pods-StudyMoya(2)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5B4C317BA98FA79DA4298CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A450C4CA1FA191C8005C8103 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D54A5B1FA1ABBB00AB53B0 /* TestService.swift in Sources */,
 				A450C4D41FA191C9005C8103 /* ViewController.swift in Sources */,
+				A4D54A5D1FA1B3FE00AB53B0 /* URLRouter.swift in Sources */,
 				A450C4D21FA191C9005C8103 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,8 +496,10 @@
 		};
 		A450C4F71FA191CB005C8103 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA30A843329C238657CA6689 /* Pods-StudyMoya(2).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H8KS5W97MJ;
 				INFOPLIST_FILE = "StudyMoya(2)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lewwei.StudyMoya-2-";
@@ -424,8 +510,10 @@
 		};
 		A450C4F81FA191CB005C8103 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9820DB248A60CBE63542C0EC /* Pods-StudyMoya(2).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H8KS5W97MJ;
 				INFOPLIST_FILE = "StudyMoya(2)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lewwei.StudyMoya-2-";
@@ -507,6 +595,7 @@
 				A450C4F81FA191CB005C8103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A450C4F91FA191CB005C8103 /* Build configuration list for PBXNativeTarget "StudyMoya(2)Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +604,7 @@
 				A450C4FB1FA191CB005C8103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A450C4FC1FA191CB005C8103 /* Build configuration list for PBXNativeTarget "StudyMoya(2)UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +613,7 @@
 				A450C4FE1FA191CB005C8103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
